@@ -5,7 +5,7 @@ function mostrarTabuada(){
   limparTabuada()
   while(cont <= 10){
     let resultado = (numero * cont)
-    mensagem += numero + 'x' + cont + '=' + resultado + '<br>'
+    mensagem += numero + ' x ' + cont + ' = ' + resultado + '<br>'
     cont++;
   }
   output.innerHTML = mensagem
