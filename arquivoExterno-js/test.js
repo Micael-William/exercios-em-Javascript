@@ -50,13 +50,15 @@ let area = (largura * comprimento)
 }
 document.write(`O terreno possui ${area} metros quadrados`)*/
 
-let nota1 = parseFloat(prompt('digite a primeira nota:'))
-let nota2 = parseFloat(prompt('digite a segunda nota:'))
+let numero = parseInt(prompt('Digite um numero'))
+let indice = 1
 
-let soma = (nota1, nota2)
-function soma(nota1, nota2){
-  let resultadoS = (nota1 + nota2)/2
-  return resultadoS
-
+while(indice <= 10){
+  let tabuada = (numero * indice)
+  document.write(`${numero} X ${indice} = ${tabuada} <br>`)
+  indice++
 }
+
+
+
 
