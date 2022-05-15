@@ -3,10 +3,9 @@ let cont = 1
 let mensagem = ''
 function mostrarTabuada(){
   limparTabuada()
-  while(cont <= 10){
+  for(cont = 1; cont <= 10; cont++){
     let resultado = (numero * cont)
     mensagem += numero + ' x ' + cont + ' = ' + resultado + '<br>'
-    cont++;
   }
   output.innerHTML = mensagem
 }
